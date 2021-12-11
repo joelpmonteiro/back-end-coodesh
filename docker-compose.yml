@@ -1,0 +1,7 @@
+version: "3.7"
+services:
+
+  back-end-coodesh:
+    image: back-end-coodesh
+    ports:
+      - "3333:3333"
