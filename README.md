@@ -1,5 +1,8 @@
 > This is a challenge by [Coodesh](https://coodesh.com/)
 
+> Video da Apresentação [video-clique-aqui](https://www.loom.com/share/908977b68a3c4586b009543db2eda29a)
+
+
 ## Project setup
 > Esse projeto ele faz uma requisição para a `API` do [Spaceflight](https://api.spaceflightnewsapi.net/v3/documentation)
 
@@ -32,7 +35,7 @@ Para modificar a porta no arquivo index.js, e modifique o valor da port nestá v
 
 ## Rodar Projeto
 ```
-Para Rodar o projeto existe 2 métodos via (npm start,npm dev)
+Para Rodar o projeto existe 2 métodos via (npm start,npm run dev)
 ```
 - npm start : roda via node nativamente exemplo, node index.js
 - npm dev : rodando via nodemon exemplo, nodemon index.js
