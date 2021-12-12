@@ -8,7 +8,7 @@ const space = require('../models/spaceModel.js');
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-cron.schedule('* 9 * * * *', async () => {
+cron.schedule('* 9 * * *', async () => {
     console.log('running a task 9 hours');
     try {
         const spaceItem = await axios.getArticleForInsert();
